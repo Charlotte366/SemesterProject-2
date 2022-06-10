@@ -8,19 +8,24 @@ A simple overview of the use/purpose of the project.
 
  In our second semester assignment we were to create an
  e-commerce website that had both customer-facing and admin sections for a shoe store in Bergen called "Bryggen Shoes"
+ The website should be responsive on all devices, both customer and admin sections. We got a STRAPI API supplied by Noroff
+ that we had to continye working on. 
  
-
-You can add some bullet points if you'd like to:
-
-- List item 1
-- List item 2
-- List item 3
+ The website customer section consist of :
+ - Home page
+ - Products page
+ - Products detail page
+ - Cart/basket page
+ 
+The admin section consiste of:
+ - Login/Logout
+ - Add/edit products
+ - Product images, for adding/editing and deleting. 
 
 ## Built With
 
-You can list a the tech stack that you've used over here
 
-- [React.js](https://reactjs.org/)
+- HTML CSS and JavaScript
 - [Bootstrap](https://getbootstrap.com)
 
 ## Getting Started
