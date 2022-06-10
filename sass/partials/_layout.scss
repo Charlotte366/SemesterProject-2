@@ -1,0 +1,42 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: black;
+}
+
+.logotop {
+  display: flex;
+  align-items: center;
+}
+
+.containerHero img,
+.containerBackground img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.footer-icons,
+.footerText {
+  color: white;
+}
+
+.fab {
+  padding: 5px;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+.card:hover {
+  border: 1px solid black;
+}
