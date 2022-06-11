@@ -2,14 +2,13 @@
 
 ![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
 
-A simple overview of the use/purpose of the project.
 
 ## Description
 
  In our second semester assignment we were to create an
  e-commerce website that had both customer-facing and admin sections for a shoe store in Bergen called "Bryggen Shoes"
  The website should be responsive on all devices, both customer and admin sections. We got a STRAPI API supplied by Noroff
- that we had to continye working on. 
+ that we had to continue working on. 
  
  The website customer section consist of :
  - Home page
@@ -62,15 +61,10 @@ Here you can detail any information you want to provide regarding contributing t
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
-
 
 [My LinkedIn page](www.linkedin.com)
 
-## License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
 
 ## Acknowledgments
 
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+A big thanks to my teacher 
