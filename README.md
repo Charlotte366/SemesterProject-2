@@ -40,7 +40,6 @@ As of now, Bryggen Shoes is connected to my local API and will therfore not work
 
 ## Contact
 
-
 [My LinkedIn page](https://www.linkedin.com/in/charlotte-soltvedt-677ab5241)
 
 
