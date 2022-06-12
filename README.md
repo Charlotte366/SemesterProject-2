@@ -33,16 +33,9 @@ The admin section consiste of:
 
 ## Getting Started
 
-Per nå er Bryggen Shoes koblet til min lokale API og vil dermed ikke fungerer. Jeg jobber med saken med å få hostet denne på nett. 
 
-### Running
+As of now, Bryggen Shoes is connected to my local API and will therfore not work. I am working on the case to get this hosted online.
 
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
-
-To run the app, run the following commands:
-
-```bash
-npm run start
 ```
 
 ## Contact
