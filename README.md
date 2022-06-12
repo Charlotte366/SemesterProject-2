@@ -28,26 +28,12 @@ The admin section consiste of:
 ## Built With
 
 
-- HTML CSS and JavaScript
+- HTML SASS and JavaScript
 - [Bootstrap](https://getbootstrap.com)
 
 ## Getting Started
 
-### Installing
-
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
-
-1. Clone the repo:
-
-```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
-```
-
-2. Install the dependencies:
-
-```
-npm install
-```
+Per nå er Bryggen Shoes koblet til min lokale API og vil dermed ikke fungerer. Jeg jobber med saken med å få hostet denne på nett. 
 
 ### Running
 
