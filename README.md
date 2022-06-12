@@ -9,6 +9,8 @@
  e-commerce website that had both customer-facing and admin sections for a shoe store in Bergen called "Bryggen Shoes"
  The website should be responsive on all devices, both customer and admin sections. We got a STRAPI API supplied by Noroff
  that we had to continue working on. 
+ I have used various methods to retrieve and send information to Strapi Api such as GET, POST, PUT
+ and DELETE. I also used the filter function on the product page, so the customers could filter on the products names. 
  
  The website customer section consist of :
  - Home page
@@ -19,7 +21,9 @@
 The admin section consiste of:
  - Login/Logout
  - Add/edit products
- - Product images, for adding/editing and deleting. 
+ - Product images, for adding/editing and deleting.
+
+
 
 ## Built With
 
@@ -54,10 +58,6 @@ To run the app, run the following commands:
 ```bash
 npm run start
 ```
-
-## Contributing
-
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
 
 ## Contact
 
