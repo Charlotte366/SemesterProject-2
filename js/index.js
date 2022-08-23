@@ -3,19 +3,20 @@ import { renderProducts } from "./ui/renderProducts.js";
 
 //const HeroUrl = baseUrl + "home"; 
 
-(async function() {
+/*(async function() {
     const container = document.querySelector(".containerHero");
 
     try {
-        const response = await fetch(HeroUrl);
+        const response = await fetch();
         const json = await response.json();
 
-      //  container.innerHTML = `<img src ="http://localhost:1337${json.hero_banner.formats.large.url}">`;
+      //container.innerHTML = `<img src ="http://localhost:1337${json.hero_banner.formats.large.url}">`;
 
     } catch (error) {
         console.log(error);
     }
 })();
+*/
 
 
 const productsUrl = baseUrl + "products?featured=true"; 

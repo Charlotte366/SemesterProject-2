@@ -1,8 +1,12 @@
 export function renderProducts(productsToRender) {
   const allProducts = document.querySelector(".all-products");
+ 
+
 
 
   allProducts.innerHTML ="";
+
+
 
   productsToRender.forEach(function (product) {
     var description = product.attributes.description;
