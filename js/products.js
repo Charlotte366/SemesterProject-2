@@ -2,21 +2,21 @@ import { baseUrl } from "./settings/api.js";
 import { renderProducts } from "./ui/renderProducts.js";
 import { searchProducts } from "./ui/searchProducts.js";
 
-const productsUrl = baseUrl + "products"; 
+const productsUrl = baseUrl + "shoes"; 
 
 async function getProducts() {
  
 
     try {
         const response = await fetch(productsUrl);
-        const products  = await response.json();
+        const shoe  = await response.json();
 
-        console.log(products);
+        console.log(shoe);
 
         
        
-        renderProducts(products);
-        searchProducts(products);
+        renderProducts(shoe);
+        searchProducts(shoe);
 
             
         } catch (error) {

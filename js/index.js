@@ -1,7 +1,7 @@
 import { baseUrl } from "./settings/api.js";
 import { renderProducts } from "./ui/renderProducts.js";
 
-const HeroUrl = baseUrl + "home"; 
+//const HeroUrl = baseUrl + "home"; 
 
 (async function() {
     const container = document.querySelector(".containerHero");
@@ -10,7 +10,7 @@ const HeroUrl = baseUrl + "home";
         const response = await fetch(HeroUrl);
         const json = await response.json();
 
-        container.innerHTML = `<img src ="http://localhost:1337${json.hero_banner.formats.large.url}">`;
+      //  container.innerHTML = `<img src ="http://localhost:1337${json.hero_banner.formats.large.url}">`;
 
     } catch (error) {
         console.log(error);
@@ -36,7 +36,7 @@ console.log(productsUrl);
         containerFeatured.innerHTML ="";
 
         json.forEach(function (product) {
-         console.log(product.featured) 
+        // console.log(product.featured) 
 
          var showImage;
   const imageurl = product.image_url;

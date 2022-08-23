@@ -9,8 +9,10 @@ const params = new URLSearchParams(queryString);
 const id = params.get("id");
 console.log("id:" + id);
 
-const detailUrl = baseUrl + "products/" + id; 
+const detailUrl = baseUrl + "shoes/" + id + "?populate=*"; 
 console.log(detailUrl);
+
+
 
 (async function() {
     const container = document.querySelector(".containerDetails");
@@ -21,14 +23,26 @@ console.log(detailUrl);
 
  
         var showImage;
-        const imageurl = data.image_url;
-        const imageValue = data.image;
+        const imageurl = product.attributes.image.data.attributes.formats.thumbnail.url;
+        const imageValue = product.attributes.image;
        
         if (imageValue != null) 
-        {showImage = "http://localhost:1337" + data.image.formats.small.url;
+        {showImage = baseURL + "shoes?populate=*";
         }
         else {
         showImage = imageurl}
+
+
+/* var showImage;
+  const imageurl = product.attributes.image.data.attributes.formats.thumbnail.url;
+  const imageValue = product.attributes.image;
+ 
+  if (imageValue != null) 
+  {showImage = baseURL + "shoes?populate=*";
+  }
+  else {
+  showImage = imageurl}
+  */
 
  
       container.innerHTML = `<div class="card card-featured mb-3" style="max-width: 100%;">
